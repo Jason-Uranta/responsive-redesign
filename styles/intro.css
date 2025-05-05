@@ -1,0 +1,26 @@
+.intro-text{
+  text-align: center; 
+  max-width: 700px; 
+  margin: auto;
+
+}
+
+.center-button {
+  display: block;
+  font-size: 25px;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  padding: 10px 20px;
+  border: 2px solid #2D7599;
+  background-color: white;
+  color: #2D7599;
+  cursor: pointer;
+}
+
+
+.center-button:hover {
+  border: 2px solid #2D7599;
+  background-color: #2D7599;
+  color: white;
+  cursor: pointer;
+}

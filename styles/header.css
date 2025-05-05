@@ -1,0 +1,127 @@
+header {
+  background-color: #2f4a3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #B4B5B5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  
+
+}
+
+.img-city-seal{
+  margin-left: 5px;
+  margin-right: 30px;
+}
+ .nav-buttons {
+  display: flex;
+  flex-grow: 1;
+} 
+
+.nav-buttons button {
+  background-color: #B4B5B5; 
+  border: none;
+  border-left: 0.5px solid #000000;
+  border-right: 0.5px solid #000000;
+  
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #10475A;
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;               
+  align-items: center;         
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-buttons-dropping {
+  background-color: #B4B5B5; 
+  border: none;
+  border-left: 0.5px solid #000000;
+  border-right: 0.5px solid #000000;
+  
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #10475A;
+  flex-grow: 1.5;
+  flex-basis: 0;
+  height: 100%;
+  display: flex;               
+  align-items: center;         
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  border-bottom:6px solid #10475A;
+}
+
+.nav-buttons .icon-button img {
+  width: 24px;
+  height: 24px;
+}  
+
+
+.nav-dropdown {
+  position: relative;
+  flex-grow: 1.5;
+  flex-basis: 0;
+  display: flex;          
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #B4B5B5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  
+}
+
+
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: flex;
+    
+    
+  }
+
+
+.nav-buttons .nav-dropdown-button{
+  border-bottom: 2px solid #DDDADA;
+  
+  
+}
+
+
+
+.top-icons {
+  
+  padding: 20px;
+  color: #B4B5B5;
+
+}
+
+.top-icons button img {
+  width: 20px;
+  height: 20px;
+}
+
+.hamburger {
+  width: 35px;
+  cursor: pointer;
+}

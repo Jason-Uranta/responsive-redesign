@@ -1,0 +1,35 @@
+footer {
+  background-color: #2D5948;
+  color: white;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: white;
+  flex-grow: 1;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

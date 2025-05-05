@@ -1,0 +1,45 @@
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel img {
+  flex: 0 0 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  max-height: 400px; 
+  object-fit: cover;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; 
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1.5px solid #000;
+  opacity: 0.6;
+}

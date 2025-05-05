@@ -1,0 +1,64 @@
+/* Container styling */
+.info-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 60px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  
+}
+
+/* Each column */
+.info-col {
+  flex: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.2
+}
+
+/* Headings */
+.info-col h2 {
+  margin-bottom: 35px;
+  color: #000;
+}
+
+/* Paragraphs */
+.info-col p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Links */
+.info-col a {
+  color: #2D7599;
+  font-weight: 600;
+  text-decoration: none;
+}
+.info-col a:hover {
+  text-decoration: underline;
+}
+
+/* Strong emphasis */
+.info-col strong {
+  font-weight: bold;
+  color: #10475A;
+}
+
+/* italic tweaks */
+.info-col em {
+  color: #555;
+  font-style: italic;
+}
+
+
+
+.info-col:first-child {
+  /* border-right: 1px solid #A47C48; */
+  padding-right: 40px;
+}
+.info-col:last-child {
+  /* border-left: 1px solid #A47C48; */
+  padding-left: 40px;
+}
+

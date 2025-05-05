@@ -1,0 +1,71 @@
+.action-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 1500px;
+  margin: 60px auto;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+
+
+.action-boxes > div {
+  flex: 1 1 30%;
+  min-width: 200px;
+  max-width: 230px;
+  padding: 30px 20px;
+  border-top: 4px solid #A47C48;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  background-color: white;
+}
+
+.action-boxes > div:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 900px) {
+  .action-boxes {
+    justify-content: center;
+  }
+
+  .action-boxes > div {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+/*Headings */
+.action-boxes h3 {
+  font-weight: 700;
+  margin: 20px 0 10px;
+  color: #2D7599;
+}
+
+/* Paragraph */
+.action-boxes p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+/* Button styles */
+.action-boxes button {
+  border: 2px solid #2D7599;
+  background-color: transparent;
+  color: #2D7599;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.action-boxes button:hover {
+  background-color: #2D7599;
+  color: white;
+}
